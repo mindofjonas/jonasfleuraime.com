@@ -551,23 +551,23 @@ h6,
   font-family: 'Proxima Nova', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 26, ../sass/_base.scss */
+/* line 24, ../sass/_base.scss */
 h3 {
   line-height: 1;
 }
 
-/* line 30, ../sass/_base.scss */
+/* line 28, ../sass/_base.scss */
 a {
   color: #0066ff;
 }
 
-/* line 34, ../sass/_base.scss */
+/* line 32, ../sass/_base.scss */
 b,
 strong {
   font-weight: 500;
 }
 
-/* line 39, ../sass/_base.scss */
+/* line 37, ../sass/_base.scss */
 hr {
   border-bottom: 3px solid #4bb8ff;
   width: 90%;
@@ -575,13 +575,13 @@ hr {
   margin: 0 0 10px;
 }
 @media print, screen and (min-width: 40em) {
-  /* line 39, ../sass/_base.scss */
+  /* line 37, ../sass/_base.scss */
   hr {
     border-bottom: 6px solid #4bb8ff;
   }
 }
 
-/* line 49, ../sass/_base.scss */
+/* line 47, ../sass/_base.scss */
 header {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -589,55 +589,55 @@ header {
   z-index: 1;
 }
 @media print, screen and (min-width: 40em) {
-  /* line 49, ../sass/_base.scss */
+  /* line 47, ../sass/_base.scss */
   header {
     padding-top: 40px;
     padding-bottom: 40px;
   }
 }
 
-/* line 60, ../sass/_base.scss */
+/* line 58, ../sass/_base.scss */
 section {
   padding: 10px 0;
   position: relative;
   z-index: 1;
 }
 @media print, screen and (min-width: 40em) {
-  /* line 60, ../sass/_base.scss */
+  /* line 58, ../sass/_base.scss */
   section {
     padding: 30px 0;
   }
 }
 
-/* line 69, ../sass/_base.scss */
+/* line 67, ../sass/_base.scss */
 footer {
   margin-bottom: 20px;
   font-size: 14px;
 }
 @media print, screen and (min-width: 40em) {
-  /* line 69, ../sass/_base.scss */
+  /* line 67, ../sass/_base.scss */
   footer {
     margin-bottom: 40px;
   }
 }
 
-/* line 76, ../sass/_base.scss */
+/* line 74, ../sass/_base.scss */
 ::selection {
   background: #4bb8ff;
 }
 
-/* line 79, ../sass/_base.scss */
+/* line 77, ../sass/_base.scss */
 ::-moz-selection {
   background: #4bb8ff;
 }
 
-/* line 82, ../sass/_base.scss */
+/* line 80, ../sass/_base.scss */
 .grid-container {
   padding-right: 20px;
   padding-left: 20px;
 }
 
-/* line 86, ../sass/_base.scss */
+/* line 84, ../sass/_base.scss */
 i.arrow {
   border: solid #0066ff;
   border-width: 0 2px 2px 0;
@@ -650,13 +650,13 @@ i.arrow {
   transition: all ease 0.5s;
 }
 
-/* line 98, ../sass/_base.scss */
+/* line 96, ../sass/_base.scss */
 .button.hollow {
   border: 2px solid #0066ff;
   color: #0066ff;
 }
 @media print, screen and (min-width: 40em) {
-  /* line 98, ../sass/_base.scss */
+  /* line 96, ../sass/_base.scss */
   .button.hollow {
     box-shadow: inset 0 0 0 0 #0066ff;
     -webkit-transition: all ease 0.5s;
@@ -664,48 +664,48 @@ i.arrow {
     transition: all ease 0.5s;
   }
 }
-/* line 107, ../sass/_base.scss */
+/* line 105, ../sass/_base.scss */
 .button.hollow span {
   vertical-align: middle;
 }
-/* line 110, ../sass/_base.scss */
+/* line 108, ../sass/_base.scss */
 .button.hollow:hover, .button.hollow:focus {
   border-color: #0066ff;
   color: #0066ff;
 }
 @media print, screen and (min-width: 40em) {
-  /* line 110, ../sass/_base.scss */
+  /* line 108, ../sass/_base.scss */
   .button.hollow:hover, .button.hollow:focus {
     color: white;
     box-shadow: inset 200px 0 0 0 #0066ff;
   }
 }
-/* line 118, ../sass/_base.scss */
+/* line 116, ../sass/_base.scss */
 .button.hollow:hover i.arrow, .button.hollow:focus i.arrow {
   border-color: #0066ff;
 }
 @media print, screen and (min-width: 40em) {
-  /* line 118, ../sass/_base.scss */
+  /* line 116, ../sass/_base.scss */
   .button.hollow:hover i.arrow, .button.hollow:focus i.arrow {
     border-color: white;
   }
 }
 
 @media print, screen and (min-width: 40em) {
-  /* line 127, ../sass/_base.scss */
+  /* line 125, ../sass/_base.scss */
   .left {
     float: left;
   }
 }
 
 @media print, screen and (min-width: 40em) {
-  /* line 133, ../sass/_base.scss */
+  /* line 131, ../sass/_base.scss */
   .right {
     float: right;
   }
 }
 
-/* line 139, ../sass/_base.scss */
+/* line 137, ../sass/_base.scss */
 .intro {
   color: white;
   background-color: #0066ff;
@@ -715,7 +715,7 @@ i.arrow {
   font-size: 16px;
 }
 @media print, screen and (min-width: 40em) {
-  /* line 139, ../sass/_base.scss */
+  /* line 137, ../sass/_base.scss */
   .intro {
     margin-bottom: 60px;
     padding-bottom: 50px;
@@ -723,7 +723,7 @@ i.arrow {
   }
 }
 
-/* line 153, ../sass/_base.scss */
+/* line 151, ../sass/_base.scss */
 .bg-desktop,
 .bg-mobile {
   position: absolute;
@@ -732,58 +732,60 @@ i.arrow {
   height: 100%;
 }
 
-/* line 161, ../sass/_base.scss */
+/* line 159, ../sass/_base.scss */
 .bg-mobile {
   display: block;
 }
 @media print, screen and (min-width: 40em) {
-  /* line 161, ../sass/_base.scss */
+  /* line 159, ../sass/_base.scss */
   .bg-mobile {
     display: none;
   }
 }
 
-/* line 168, ../sass/_base.scss */
+/* line 166, ../sass/_base.scss */
 .bg-desktop {
   display: none;
 }
 @media print, screen and (min-width: 40em) {
-  /* line 168, ../sass/_base.scss */
+  /* line 166, ../sass/_base.scss */
   .bg-desktop {
     display: block;
   }
 }
 
-/* line 175, ../sass/_base.scss */
+/* line 173, ../sass/_base.scss */
 .logo {
   width: 50px;
   height: auto;
 }
 
-/* line 180, ../sass/_base.scss */
+/* line 178, ../sass/_base.scss */
 .content-list {
   list-style: none;
   margin: 0;
 }
-/* line 183, ../sass/_base.scss */
+/* line 181, ../sass/_base.scss */
 .content-list li {
   border-bottom: 1px solid lightgray;
   margin-bottom: 1.25em;
   padding-bottom: 1.25em;
 }
-/* line 187, ../sass/_base.scss */
+/* line 185, ../sass/_base.scss */
 .content-list li:last-child {
   border-bottom: none;
   margin-bottom: 0;
 }
-/* line 191, ../sass/_base.scss */
-.content-list li .button {
-  margin-top: 10px;
+
+/* line 195, ../sass/_base.scss */
+.content-left p, .project-footer__link,
+.project-footer__tags {
+  font-size: 16px;
 }
 
-/* line 197, ../sass/_base.scss */
-.content-left p, .project-footer__role,
-.project-footer__stack {
-  font-size: 16px;
-  color: gray;
+/* line 200, ../sass/_base.scss */
+.project-footer__tags .label.secondary {
+  background: transparent;
+  border: 1px solid #767676;
+  color: #767676;
 }

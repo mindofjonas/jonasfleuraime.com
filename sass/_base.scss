@@ -187,14 +187,19 @@ i.arrow {
 			margin-bottom: 0;
 		}
 		.button {
-			margin-top: 10px;
+			//margin-top: 10px;
 		}
 	}
 }
 
-.content-left p, .project-footer__role,
-.project-footer__stack {
-	//font-style: italic;
+.content-left p, .project-footer__link,
+.project-footer__tags {
 	font-size: 16px;
-	color: gray;
+}
+.project-footer__tags {
+	.label.secondary {
+		background: transparent;
+		border: 1px solid #767676;
+    color: #767676;
+	}
 }
