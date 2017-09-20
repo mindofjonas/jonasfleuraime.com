@@ -783,7 +783,12 @@ i.arrow {
   font-size: 16px;
 }
 
-/* line 200, ../sass/_base.scss */
+/* line 199, ../sass/_base.scss */
+.content-left p {
+  color: #767676;
+}
+
+/* line 203, ../sass/_base.scss */
 .project-footer__tags .label.secondary {
   background: transparent;
   border: 1px solid #767676;
