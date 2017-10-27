@@ -71,16 +71,20 @@ footer {
 		margin-bottom: 40px;
 	}
 }
+
 ::selection {
-  background: #4bb8ff;
+	background: #4bb8ff;
 }
+
 ::-moz-selection {
-  background: #4bb8ff;
+	background: #4bb8ff;
 }
+
 .grid-container {
 	padding-right: 20px;
 	padding-left: 20px;
 }
+
 i.arrow {
 	border: solid #0066ff;
 	border-width: 0 2px 2px 0;
@@ -189,17 +193,26 @@ i.arrow {
 	}
 }
 
-.content-left p, .project-footer__link,
+.content-left {
+	@include desktop-up {
+		padding-right: 20px;
+	}
+}
+
+.content-left p,
+.project-footer__link,
 .project-footer__tags {
 	font-size: 16px;
 }
+
 .content-left p {
 	color: #767676;
 }
+
 .project-footer__tags {
 	.label.secondary {
 		background: transparent;
 		border: 1px solid #767676;
-    color: #767676;
+		color: #767676;
 	}
 }
